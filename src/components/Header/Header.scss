@@ -1,0 +1,14 @@
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    text-transform: uppercase;
+    &__container {
+        display: flex;
+        gap: 40px;
+    }
+}
